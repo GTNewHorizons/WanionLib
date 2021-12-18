@@ -1,0 +1,10 @@
+// Add your dependencies here
+
+dependencies {
+    compileOnly("com.github.GTNewHorizons:CraftTweaker:update-build-script-SNAPSHOT:dev") {  // TODO: change to master
+        transitive = false
+    }
+    compileOnly("com.github.GTNewHorizons:ZenScript:master-SNAPSHOT") {
+        transitive = false
+    }
+}
