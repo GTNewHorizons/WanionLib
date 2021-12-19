@@ -1,0 +1,10 @@
+// Add your dependencies here
+
+dependencies {
+    compileOnly("com.github.GTNewHorizons:CraftTweaker:master-SNAPSHOT:dev") {
+        transitive = false
+    }
+    compileOnly("com.github.GTNewHorizons:ZenScript:master-SNAPSHOT") {
+        transitive = false
+    }
+}
