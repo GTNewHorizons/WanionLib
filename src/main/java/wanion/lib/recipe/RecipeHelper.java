@@ -12,10 +12,10 @@ import javax.annotation.Nonnull;
 
 import net.minecraft.item.ItemStack;
 
-import wanion.lib.common.MetaItem;
 import gnu.trove.map.TObjectCharMap;
 import gnu.trove.map.hash.THashMap;
 import gnu.trove.map.hash.TObjectCharHashMap;
+import wanion.lib.common.MetaItem;
 
 public final class RecipeHelper {
 

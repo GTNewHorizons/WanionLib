@@ -11,13 +11,13 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import wanion.lib.WanionLib;
-import wanion.lib.client.animation.Animation;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.TickEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import wanion.lib.WanionLib;
+import wanion.lib.client.animation.Animation;
 
 @SideOnly(Side.CLIENT)
 public final class ClientTickHandler implements WanionLib.IDependency {
