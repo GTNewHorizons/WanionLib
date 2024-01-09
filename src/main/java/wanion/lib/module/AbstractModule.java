@@ -6,7 +6,12 @@ package wanion.lib.module;
  * http://mozilla.org/MPL/2.0/.
  */
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

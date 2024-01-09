@@ -6,7 +6,10 @@ package wanion.lib;
  * http://mozilla.org/MPL/2.0/.
  */
 
-import static wanion.lib.Reference.*;
+import static wanion.lib.Reference.ACCEPTED_MINECRAFT;
+import static wanion.lib.Reference.MOD_ID;
+import static wanion.lib.Reference.MOD_NAME;
+import static wanion.lib.Reference.MOD_VERSION;
 
 import java.util.Map;
 
