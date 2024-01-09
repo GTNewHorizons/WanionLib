@@ -1,10 +1,10 @@
 // Add your dependencies here
 
 dependencies {
-    compileOnly("com.github.GTNewHorizons:CraftTweaker:3.2.5:dev") {
+    compileOnly("com.github.GTNewHorizons:CraftTweaker:3.2.13:dev") {
         transitive = false
     }
-    compileOnly("com.github.GTNewHorizons:ZenScript:master-SNAPSHOT") {
+    compileOnly("com.github.GTNewHorizons:ZenScript:1.0.0-GTNH") {
         transitive = false
     }
 }

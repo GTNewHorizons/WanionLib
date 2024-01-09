@@ -12,13 +12,13 @@ import java.util.Map;
 
 import org.apache.logging.log4j.Logger;
 
-import wanion.lib.client.ClientTickHandler;
-import wanion.lib.common.Dependencies;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLLoadCompleteEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import wanion.lib.client.ClientTickHandler;
+import wanion.lib.common.Dependencies;
 
 @Mod(modid = MOD_ID, name = MOD_NAME, version = MOD_VERSION, acceptedMinecraftVersions = ACCEPTED_MINECRAFT)
 public final class WanionLib {
